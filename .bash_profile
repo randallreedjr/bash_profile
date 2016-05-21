@@ -138,42 +138,24 @@ function extract () {
 
 # Aliases
 # =====================
-  # LS
+  # Bash
   alias l='ls -lah'
-
-  # Git
-  alias gst="git status"
-  alias gl="git pull"
-  alias gp="git push"
-  alias gd="git diff | mate"
-  alias gc="git commit -v"
-  alias gca="git commit -v -a"
-  alias gb="git branch"
-  alias gba="git branch -a"
+  alias refresh='source ~/.bash_profile && cd . && cp ~/.bash_profile ~/Programming/bash_profile/.bash_profile'
 
   # Rails
   alias be="bundle exec"
+  alias rc="bundle exec rails console"
+  alias rs="bundle exec rails server"
 
   # Rspec
   alias rff="rspec --fail-fast"
 
-  # Stop using Sublime
-  alias subl="atom"
-
   # Home
-  alias ft="cd ~/Cyrus/furniture_today"
   alias cy="cd ~/Cyrus/"
-  alias kn="cd ~/Cyrus/furniture_today/knester"
-  alias hl="cd ~/Cyrus/high-line"
-  alias pch="cd ~/Cyrus/perch"
-  alias psh="ssh perch@54.152.27.223"
-  alias xo="cd ~/Cyrus/xo-group"
+  alias ss="cd ~/Programming/screenslate"
 
   # XO
   alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
-  alias ss="cd ~/Cyrus/xo-group/Core Services/site_search/app"
-  alias qa="APPLICATION_DEPLOYMENT_ENVIRONMENT=qa bundle exec rails s"
-  alias prod="APPLICATION_DEPLOYMENT_ENVIRONMENT=production bundle exex rails s"
 
 # Final Configurations and Plugins
 # =====================
