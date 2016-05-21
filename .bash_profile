@@ -144,6 +144,9 @@ function extract () {
 
   # Rails
   alias be="bundle exec"
+  alias bi="bundle install"
+  alias migrate="bundle exec rake db:migrate"
+  alias rollback="bundle exec rake db:rollback"
   alias rc="bundle exec rails console"
   alias rs="bundle exec rails server"
 
