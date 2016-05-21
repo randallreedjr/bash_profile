@@ -152,7 +152,7 @@ function extract () {
 
   # Home
   alias cy="cd ~/Cyrus/"
-  alias ss="cd ~/Programming/screenslate"
+  alias ss="cd ~/Programming/screen-slate-rails"
 
   # XO
   alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
