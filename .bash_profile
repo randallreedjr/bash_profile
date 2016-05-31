@@ -151,7 +151,8 @@ function extract () {
   alias rs="bundle exec rails server"
 
   # Rspec
-  alias rff="rspec --fail-fast"
+  alias rspec="bundle exec rspec"
+  alias rff="bundle exec rspec --fail-fast"
   alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
