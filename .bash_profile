@@ -152,10 +152,11 @@ function extract () {
 
   # Rspec
   alias rff="rspec --fail-fast"
+  alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
   alias cy="cd ~/Cyrus/"
-  alias ss="cd ~/Programming/screen-slate-rails"
+  alias ss="cd ~/Programming/screen-slate-cms"
 
   # XO
   alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
