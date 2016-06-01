@@ -150,6 +150,9 @@ function extract () {
   alias rc="bundle exec rails console"
   alias rs="bundle exec rails server"
 
+  # Heroku
+  alias hmigrate="heroku run bundle exec rake db:migrate"
+
   # Rspec
   alias rspec="bundle exec rspec"
   alias rff="bundle exec rspec --fail-fast"
