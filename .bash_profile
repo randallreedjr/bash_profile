@@ -189,6 +189,11 @@ function extract () {
     . ~/.git-completion.bash
   fi
 
+# rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
 
 export GIT_UNDO_HISTFILE=$HISTFILE
