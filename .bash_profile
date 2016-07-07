@@ -164,6 +164,8 @@ function extract () {
   alias bp="cd ~/Programming/bash_profile"
 
   # XO
+  alias xo="cd ~/Cyrus/xo-group"
+  alias engage="cd ~/Cyrus/xo-group/Inspiration"
   alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
 
 # Final Configurations and Plugins
