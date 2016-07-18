@@ -163,7 +163,7 @@ function extract () {
 
   # Home
   alias cy="cd ~/Cyrus/"
-  alias ss="cd ~/Programming/screen-slate-cms"
+  alias ss="cd ~/Freelance/screen-slate-rails"
   alias bp="cd ~/Programming/bash_profile"
 
   # XO
