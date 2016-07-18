@@ -142,6 +142,9 @@ function extract () {
   alias l='ls -lah'
   alias refresh='source ~/.bash_profile && cd . && cp ~/.bash_profile ~/Programming/bash_profile/.bash_profile'
 
+  # git
+  alias prune='git fetch --prune --all'
+
   # Rails
   alias be="bundle exec"
   alias bi="bundle install"
@@ -190,3 +193,8 @@ function extract () {
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export GIT_UNDO_HISTFILE=$HISTFILE
+
+# Git Undo
+alias git-undo="HISTFILE=$HISTFILE git-undo"
+# Flush history immediately
+export PROMPT_COMMAND='history -a'
