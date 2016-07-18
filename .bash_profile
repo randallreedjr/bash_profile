@@ -167,6 +167,8 @@ function extract () {
   alias bp="cd ~/Programming/bash_profile"
 
   # XO
+  alias xo="cd ~/Cyrus/xo-group"
+  alias engage="cd ~/Cyrus/xo-group/Inspiration"
   alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
 
 # Final Configurations and Plugins
@@ -190,7 +192,12 @@ function extract () {
     . ~/.git-completion.bash
   fi
 
+# rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
 
 export GIT_UNDO_HISTFILE=$HISTFILE
 
