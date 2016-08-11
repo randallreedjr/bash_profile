@@ -165,14 +165,15 @@ function extract () {
   alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
-  alias cy="cd ~/Cyrus/"
+  alias df="cd ~/DefMethod/"
   alias ss="cd ~/Freelance/screen-slate-rails"
   alias bp="cd ~/Programming/bash_profile"
 
   # XO
-  alias xo="cd ~/Cyrus/xo-group"
-  alias engage="cd ~/Cyrus/xo-group/Inspiration"
-  alias louisa="cd ~/Cyrus/xo-group/MobileApps/louisa"
+  alias xo="cd ~/DefMethod/xo-group"
+  alias engage="cd ~/DefMethod/xo-group/Inspiration"
+  alias wishlist="cd ~/DefMethod/xo-group/Inspiration/wishlist-board-web"
+  alias louisa="cd ~/DefMethod/xo-group/MobileApps/louisa"
 
 # Final Configurations and Plugins
 # =====================
