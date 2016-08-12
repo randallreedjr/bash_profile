@@ -208,4 +208,4 @@ export GIT_UNDO_HISTFILE=$HISTFILE
 # Git Undo
 alias git-undo="HISTFILE=$HISTFILE git-undo"
 # Flush history immediately
-export PROMPT_COMMAND='history -a'
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
