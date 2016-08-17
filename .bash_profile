@@ -166,7 +166,7 @@ function extract () {
 
   # Home
   alias df="cd ~/DefMethod/"
-  alias ss="cd ~/Freelance/screen-slate-rails"
+  alias ss="cd ~/Freelance/screen-slate-cms"
   alias bp="cd ~/Programming/bash_profile"
 
   # XO
