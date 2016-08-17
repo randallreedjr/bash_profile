@@ -203,9 +203,9 @@ function extract () {
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
 
-export GIT_UNDO_HISTFILE=$HISTFILE
-
 # Git Undo
+export GIT_UNDO_HISTFILE=$HISTFILE
 alias git-undo="HISTFILE=$HISTFILE git-undo"
+
 # Flush history immediately
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
