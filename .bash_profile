@@ -173,6 +173,8 @@ function extract () {
   alias xo="cd ~/DefMethod/xo-group"
   alias engage="cd ~/DefMethod/xo-group/Inspiration"
   alias wishlist="cd ~/DefMethod/xo-group/Inspiration/wishlist-board-web"
+  alias member="cd ~/DefMethod/xo-group/Acquisition"
+  alias brash="cd ~/DefMethod/xo-group/Acquisition/brashboard"
   alias louisa="cd ~/DefMethod/xo-group/MobileApps/louisa"
 
 # Final Configurations and Plugins
