@@ -140,7 +140,7 @@ function extract () {
 # =====================
   # Bash
   alias l='ls -lah'
-  alias refresh='source ~/.bash_profile && cd .'
+  alias refresh='rm ~/.bash_profile && ln -s ~/Programming/bash_profile/.bash_profile ~/.bash_profile && source ~/.bash_profile && cd .'
 
   # git
   alias prune='git fetch --prune --all'
