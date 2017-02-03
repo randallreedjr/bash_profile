@@ -8,7 +8,7 @@ Remove the `.bash_profile` file form your home directory and create a symlink po
 
 ```
 $ rm ~/.bash_profile
-$ ln -s ~/Programming/bash_profile/.bash_profile ~/.bash_profile
+$ ln -s ~/Code/bash_profile/.bash_profile ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
