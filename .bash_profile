@@ -170,7 +170,7 @@ function extract () {
   alias bp="cd ~/Code/bash_profile"
 
   # Flatiron
-  alias fl="cd ~/Code/Learn"
+  alias fl="cd ~/Code/Freelance/instructor-app-v2"
 
 # Final Configurations and Plugins
 # =====================
