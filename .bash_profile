@@ -140,7 +140,7 @@ function extract () {
 # =====================
   # Bash
   alias l='ls -lah'
-  alias refresh='rm ~/.bash_profile && ln -s ~/Programming/bash_profile/.bash_profile ~/.bash_profile && source ~/.bash_profile && cd .'
+  alias refresh='rm ~/.bash_profile && ln -s ~/Code/bash_profile/.bash_profile ~/.bash_profile && source ~/.bash_profile && cd .'
 
   # git
   alias prune='git fetch --prune --all'
@@ -165,17 +165,12 @@ function extract () {
   alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
-  alias df="cd ~/DefMethod/"
-  alias ss="cd ~/Freelance/screen-slate-cms"
-  alias bp="cd ~/Programming/bash_profile"
+  alias df="cd ~/Code/DefMethod"
+  alias ss="cd ~/Code/Freelance/screen-slate-cms"
+  alias bp="cd ~/Code/bash_profile"
 
-  # XO
-  alias xo="cd ~/DefMethod/xo-group"
-  alias engage="cd ~/DefMethod/xo-group/Inspiration"
-  alias wishlist="cd ~/DefMethod/xo-group/Inspiration/wishlist-board-web"
-  alias member="cd ~/DefMethod/xo-group/Acquisition"
-  alias brash="cd ~/DefMethod/xo-group/Acquisition/brashboard"
-  alias louisa="cd ~/DefMethod/xo-group/MobileApps/louisa"
+  # Flatiron
+  alias fl="cd ~/Code/Learn"
 
 # Final Configurations and Plugins
 # =====================
