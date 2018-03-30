@@ -175,6 +175,10 @@ function extract () {
   # Wellinks
   alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
 
+  # Git profiles
+  alias git-randy="git config user.email \"randy@defmethod.io\" && git config user.email"
+  alias git-randallreedjr="git config --unset user.email && git config user.email"
+
 # Final Configurations and Plugins
 # =====================
   # Git Bash Completion
