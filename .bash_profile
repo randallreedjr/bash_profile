@@ -172,6 +172,9 @@ function extract () {
   # Flatiron
   alias fl="cd ~/Code/Freelance/instructor-app-v2"
 
+  # Wellinks
+  alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
+
 # Final Configurations and Plugins
 # =====================
   # Git Bash Completion
