@@ -174,6 +174,7 @@ function extract () {
 
   # Wellinks
   alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
+  alias cinch="cd ~/Code/DefMethod/Wellinks/cinch-web"
 
   # Git profiles
   alias git-randy="git config user.email \"randy@defmethod.io\" && git config user.email"
