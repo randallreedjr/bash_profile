@@ -77,7 +77,6 @@
     # Also, Homebrew adopts this convetion so things installed via Homebrew
     # get symlinked into /usr/local
     export USR_PATHS="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin"
-    export EJABBERD_PATH="/Applications/ejabberd-16.01/bin"
     # Hint: You can interpolate a variable into a string by using the $VARIABLE notation as below.
 
     # We build our final PATH by combining the variables defined above
@@ -86,7 +85,7 @@
     # Our PATH variable is special and very important. Whenever we type a command into our shell,
     # it will try to find that command within a directory that is defined in our PATH.
     # Read http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/ for more on that.
-    export PATH="$USR_PATHS:$PATH:$EJABBERD_PATH"
+    export PATH="$USR_PATHS:$PATH"
 
     # If you go into your shell and type: $PATH you will see the output of your current path.
     # For example, mine is:
