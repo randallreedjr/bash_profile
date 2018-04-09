@@ -164,7 +164,8 @@ function extract () {
   alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
-  alias df="cd ~/Code/DefMethod"
+  alias code="cd ~/Code"
+  alias dm="cd ~/Code/DefMethod"
   alias ss="cd ~/Code/Freelance/screen-slate-cms"
   alias bp="cd ~/Code/bash_profile"
 
