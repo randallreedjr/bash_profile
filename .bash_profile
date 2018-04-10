@@ -176,9 +176,10 @@ function extract () {
   alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
   alias cinch="cd ~/Code/DefMethod/Wellinks/cinch-web"
 
-  # Git profiles
-  alias git-randy="git config user.email \"randy@defmethod.io\" && git config user.email"
-  alias git-randallreedjr="git config --unset user.email && git config user.email"
+  # Profiles
+  alias git-randy="git config user.email \"randy@defmethod.io\"; git config user.email"
+  alias git-randallreedjr="git config --global user.email \"randallreedjr@gmail.com\"; git config --unset user.email; git config user.email"
+  alias me="echo local; whoami; echo github; git config user.email; echo heroku; heroku auth:whoami"
 
 # Final Configurations and Plugins
 # =====================
