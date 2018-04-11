@@ -179,6 +179,7 @@ function extract () {
   # Profiles
   alias git-randy="git config user.email \"randy@defmethod.io\"; git config user.email"
   alias git-randallreedjr="git config --global user.email \"randallreedjr@gmail.com\"; git config --unset user.email; git config user.email"
+  alias git-xo="git config user.email \"rareed@xogrp.com\"; git config user.email"
   alias me="echo local; whoami; echo github; git config user.email; echo heroku; heroku auth:whoami"
 
 # Final Configurations and Plugins
