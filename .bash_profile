@@ -177,9 +177,9 @@ function extract () {
   alias cinch="cd ~/Code/DefMethod/Wellinks/cinch-web"
 
   # Profiles
-  alias git-randy="git config user.email \"randy@defmethod.io\"; git config user.email"
-  alias git-randallreedjr="git config --global user.email \"randallreedjr@gmail.com\"; git config --unset user.email; git config user.email"
-  alias git-xo="git config user.email \"rareed@xogrp.com\"; git config user.email"
+  alias git-randy="git config user.email \"randy@defmethod.io\"; git config user.username \"dm-randy\"; git config user.email"
+  alias git-randallreedjr="git config --global user.email \"randallreedjr@gmail.com\"; git config --global user.username \"randallreedjr\"; git config --unset user.email; git config --unset user.username; git config user.email"
+  alias git-xo="git config user.email \"rareed@xogrp.com\"; git config user.username \"rareed\"; git config user.email"
   alias me="echo local; whoami; echo github; git config user.email; echo heroku; heroku auth:whoami"
 
 # Final Configurations and Plugins
