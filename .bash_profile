@@ -64,6 +64,11 @@
     export EDITOR="atom -w"
 
   # Paths
+    if [ -d $(brew --prefix qt)/bin ]; then
+      export QT_PATH="$(brew --prefix qt)/bin"
+    else
+      export QT_PATH=""
+    fi
 
     # The USR_PATHS variable will just store all relevant /usr paths for easier usage
     # Each path is seperate via a : and we always use absolute paths.
@@ -85,7 +90,7 @@
     # Our PATH variable is special and very important. Whenever we type a command into our shell,
     # it will try to find that command within a directory that is defined in our PATH.
     # Read http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/ for more on that.
-    export PATH="$USR_PATHS:$PATH"
+    export PATH="$USR_PATHS:$PATH:$QT_PATH"
 
     # If you go into your shell and type: $PATH you will see the output of your current path.
     # For example, mine is:
