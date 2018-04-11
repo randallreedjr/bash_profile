@@ -64,8 +64,8 @@
     export EDITOR="atom -w"
 
   # Paths
-    if [ -d $(brew --prefix qt)/bin ]; then
-      export QT_PATH="$(brew --prefix qt)/bin"
+    if [ -d $(brew --prefix qt@5.5)/bin ]; then
+      export QT_PATH="$(brew --prefix qt@5.5)/bin"
     else
       export QT_PATH=""
     fi
