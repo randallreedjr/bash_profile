@@ -230,7 +230,3 @@ alias git-undo="HISTFILE=$HISTFILE git-undo"
 
 # Flush history immediately
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
-
-# Engagement Squad
-export API_URL="http://localhost:5000/admin_api"
-export USER_LPAREWSKI="FQgPy8Nm"
