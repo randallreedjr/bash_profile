@@ -212,8 +212,17 @@ function extract () {
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # nvm
-export NVM_DIR="$HOME/.nvm"
-. "$(brew --prefix nvm)/nvm.sh"
+if [ -d $(brew --prefix nvm) ]; then
+  # installed via homebrew
+  export NVM_DIR="$HOME/.nvm"
+  . "$(brew --prefix nvm)/nvm.sh"
+else
+  # installed via github
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fi
+
 
 # Git Undo
 export GIT_UNDO_HISTFILE=$HISTFILE
