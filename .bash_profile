@@ -63,12 +63,14 @@
     export GIT_EDITOR="atom -w"
     export EDITOR="atom -w"
 
-  # Paths
+    # Paths
     if [ -d $(brew --prefix qt@5.5)/bin ]; then
       export QT_PATH="$(brew --prefix qt@5.5)/bin"
     else
       export QT_PATH=""
     fi
+
+    export VS_PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
     # The USR_PATHS variable will just store all relevant /usr paths for easier usage
     # Each path is seperate via a : and we always use absolute paths.
@@ -90,7 +92,7 @@
     # Our PATH variable is special and very important. Whenever we type a command into our shell,
     # it will try to find that command within a directory that is defined in our PATH.
     # Read http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/ for more on that.
-    export PATH="$USR_PATHS:$PATH:$QT_PATH"
+    export PATH="$USR_PATHS:$PATH:$VS_PATH:$QT_PATH"
 
     # If you go into your shell and type: $PATH you will see the output of your current path.
     # For example, mine is:
@@ -169,7 +171,7 @@ function extract () {
   alias s="SILENCE_SPECS=true ./scripts/build.sh -q"
 
   # Home
-  alias code="cd ~/Code"
+  alias co="cd ~/Code"
   alias dm="cd ~/Code/DefMethod"
   alias ss="cd ~/Code/Freelance/screen-slate-cms"
   alias bp="cd ~/Code/bash_profile"
