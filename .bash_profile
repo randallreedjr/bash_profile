@@ -172,9 +172,10 @@ function extract () {
 
   # Home
   alias co="cd ~/Code"
+  alias bp="cd ~/Code/bash_profile"
   alias dm="cd ~/Code/DefMethod"
   alias ss="cd ~/Code/Freelance/screen-slate-cms"
-  alias bp="cd ~/Code/bash_profile"
+  alias uis="cd ~/Code/Codecademy/Build\ Website\ UIs"
 
   # Flatiron
   alias fl="cd ~/Code/Freelance/instructor-app-v2"
