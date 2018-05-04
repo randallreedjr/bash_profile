@@ -177,9 +177,6 @@ function extract () {
   alias ss="cd ~/Code/Freelance/screen-slate-cms"
   alias uis="cd ~/Code/Codecademy/Build\ Website\ UIs"
 
-  # Flatiron
-  alias fl="cd ~/Code/Freelance/instructor-app-v2"
-
   # Wellinks
   alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
   alias cinch="cd ~/Code/DefMethod/Wellinks/cinch-web"
