@@ -181,6 +181,10 @@ function extract () {
   alias hcb="ssh rreed@44c7a70f0551c3d6d5ed.healthcareblocks.com"
   alias cinch="cd ~/Code/DefMethod/Wellinks/cinch-web"
 
+  # XO
+  alias mkt="cd ~/Code/Marketplace"
+  alias lint="sh script/git_hooks/pronto.sh"
+
   # Profiles
   alias git-randy="git config user.email \"randy@defmethod.io\"; git config user.username \"dm-randy\"; git config user.email"
   alias git-randallreedjr="git config --global user.email \"randallreedjr@gmail.com\"; git config --global user.username \"randallreedjr\"; git config --unset user.email; git config --unset user.username; git config user.email"
