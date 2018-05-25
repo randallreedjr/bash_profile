@@ -144,6 +144,10 @@ function extract () {
 
 # Aliases
 # =====================
+
+  # Load aliases from .bashrc
+  eval "$(cat ~/.bashrc | grep alias)"
+
   # Bash
   alias l='ls -lah'
   alias refresh='rm ~/.bash_profile && ln -s ~/Code/bash_profile/.bash_profile ~/.bash_profile && source ~/.bash_profile && cd .'
