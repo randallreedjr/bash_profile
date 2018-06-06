@@ -15,12 +15,13 @@
     # Define some local colors
     local         RED="\[\033[0;31m\]" # This syntax is some weird bash color thing I never
     local   LIGHT_RED="\[\033[1;31m\]" # really understood
-    local      YELLOW="\[\033[0;33m\]"
+    local      ORANGE="\[\033[1;91m\]"
+    local      YELLOW="\[\033[1;33m\]"
     local        CHAR="☆"
     # ♥ ☆ - Keeping some cool ASCII Characters for reference
 
     # Here is where we actually export the PS1 Variable which stores the text for your prompt
-    export PS1="\[\e]2;\u@\h\a[\[\e[37;44;1m\]\t\[\e[0m\]]$RED\$(parse_git_branch) \[\e[32m\]\W\[\e[0m\]\n\[\e[1;33m\]$CHAR \[\e[0m\]"
+    export PS1="\[\e]2;\u@\h\a[\[\e[37;44;1m\]\t\[\e[0m\]]$ORANGE\$(parse_git_branch) \[\e[32m\]\W\[\e[0m\]\n\[\e[1;33m\]$CHAR \[\e[0m\]"
       PS2='> '
       PS4='+ '
     }
