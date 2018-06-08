@@ -146,7 +146,8 @@ function extract () {
 # =====================
 
   # Load aliases from .bashrc
-  eval "$(cat ~/.bashrc | grep alias)"
+  # eval "$(cat ~/.bashrc | grep alias)"
+  source ~/.bashrc
 
   # Bash
   alias l='ls -lah'
