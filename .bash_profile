@@ -156,6 +156,7 @@ function extract () {
 
   # git
   alias prune='git fetch --prune --all'
+  alias gap='git add -p'
 
   # Rails
   alias be="bundle exec"
