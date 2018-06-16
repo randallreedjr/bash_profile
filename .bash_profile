@@ -180,6 +180,7 @@ function extract () {
   # Home
   alias co="cd ~/Code"
   alias bp="cd ~/Code/bash_profile"
+  alias rr="cd ~/Code/Personal/randallreedjr.com"
   alias dm="cd ~/Code/DefMethod"
   alias ss="cd ~/Code/Freelance/screen-slate-cms"
   alias uis="cd ~/Code/Codecademy/Build\ Website\ UIs"
